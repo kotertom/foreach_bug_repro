@@ -1,4 +1,4 @@
-void main(List<String> args) {
+List<String> calculateResult() {
   const items = ['banana', 'apple', 'orange'];
   const someOtherItems = [1, 2, 3];
 
@@ -9,4 +9,6 @@ void main(List<String> args) {
       return '$e';
     }));
   });
+
+  return result;
 }
